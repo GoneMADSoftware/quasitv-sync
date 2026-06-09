@@ -34,7 +34,7 @@ docker run -d \
        -v /path/to/your/settings:/settings \
        -v /path/to/your/data:/data \
        --restart unless-stopped \
-       quasitv-sync:latest
+       ghcr.io/gonemadsoftware/quasitv-sync:latest
 ```
 
 ### Option 2: Docker Compose
@@ -44,7 +44,7 @@ If you prefer using Docker Compose, create a docker-compose.yml file with the fo
 ```yaml
 services:
   quasitv-sync:
-    image: quasitv-sync:latest
+    image: ghcr.io/gonemadsoftware/quasitv-sync:latest
     container_name: quasitv-sync
     ports:
       - "26988:26988"
@@ -79,8 +79,8 @@ Note: If migrating from an existing QuasiTV setup, be sure to create a backup fr
 
 1. Open **QuasiTV** on your device
 2. Navigate to **Settings > Login > QuasiTVSync**
-3. Enter your server's IP address/URL and your user credentials
-4. Select ***Login**
+3. Enter your server's IP address/URL and your user credentials. The default port is **51234**
+4. Select **Login**
 5. Wait for the initial sync to complete
 6. Your profiles, channels, and schedules will now automatically remain in sync.
 
