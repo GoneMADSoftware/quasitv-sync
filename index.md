@@ -81,8 +81,9 @@ Note: If migrating from an existing QuasiTV setup, be sure to create a backup fr
 2. Navigate to **Settings > Login > QuasiTVSync**
 3. Enter your server's IP address/URL and your user credentials. The default port is **51234**
 4. Select **Login**
-5. Wait for the initial sync to complete
-6. Your profiles, channels, and schedules will now automatically remain in sync.
+5. Now log in to your content server **(Plex/Emby/Jellyfin)**
+6. Wait for the initial sync to complete
+7. Your profiles, channels, and schedules will now automatically remain in sync.
 
 ## Privacy
 
