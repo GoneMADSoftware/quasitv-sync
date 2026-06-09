@@ -1,6 +1,6 @@
 # Welcome to QuasiTVSync
 
-**QuasiTVSync** is the dedicated self-hosted backend server for [QuasiTV](https://quasitv.app). It acts as the central hub for your network, seamlessly synchronizing your viewing experience across all your Android and Google TV devices.  Currently in closed alpha, but will be available to the public soon.
+**QuasiTVSync** is the dedicated self-hosted backend server for [QuasiTV](https://www.quasitv.app). It acts as the central hub for your network, seamlessly synchronizing your viewing experience across all your Android and Google TV devices.  Currently in closed alpha, but will be available to the public soon.
 
 Never lose your place or have to manually recreate your custom channel lineups again. Set it up once, and let QuasiTVSync handle the rest.
 
