@@ -1,5 +1,9 @@
 # Release notes
 
+### 0.8.5 (2026-06-11)
+
+*   Added json adapters to episodes and a few other database entities to fix client syncing
+
 ### 0.8.4 (2026-06-09)
 
 *   Fixed pin.txt writing as a directory
