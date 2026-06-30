@@ -1,5 +1,9 @@
 # Release notes
 
+### 0.9.0 (2026-06-29)
+
+*   Server confirmation response now contains contentServerId, to prevent login issues to plex when multiple servers are associated with your account
+
 ### 0.8.6 (2026-06-11)
 
 *   Made content server check more reliable
