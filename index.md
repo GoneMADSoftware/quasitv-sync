@@ -37,6 +37,13 @@ docker run -d \
        ghcr.io/gonemadsoftware/quasitv-sync:latest
 ```
 
+**Note:** quasitv-sync needs read and write access to the locations you are mounting to /settings and /data
+
+```bash
+chmod 755 /path/to/your/settings
+chmod 755 /path/to/your/data
+```
+
 ### Option 2: Docker Compose
 
 If you prefer using Docker Compose, create a docker-compose.yml file with the following configuration:
@@ -60,6 +67,13 @@ services:
 
 ```bash
 docker compose up -d
+```
+
+**Note:** quasitv-sync needs read and write access to the locations you are mounting to /settings and /data
+
+```bash
+chmod 755 /path/to/your/settings
+chmod 755 /path/to/your/data
 ```
 
 ## Setting up QuasiTVSync Server
