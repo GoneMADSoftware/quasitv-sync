@@ -1,5 +1,10 @@
 # Release notes
 
+### 0.9.1 (2026-07-02)
+
+*   Fixed issue where show would not update after thumbnail changes
+*   Fixed issue where new episodes would not sync to client after initial sync
+
 ### 0.9.0 (2026-06-29)
 
 *   Server confirmation response now contains contentServerId, to prevent login issues to plex when multiple servers are associated with your account
