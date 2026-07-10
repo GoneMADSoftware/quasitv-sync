@@ -1,5 +1,10 @@
 # Release notes
 
+### 1.0.0 (2026-07-10)
+
+*   Fixed force sync on web admin UI not always running a sync
+*   Improved speed of TV sync
+
 ### 0.9.1 (2026-07-02)
 
 *   Fixed issue where show would not update after thumbnail changes
