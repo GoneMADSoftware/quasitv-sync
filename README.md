@@ -18,7 +18,7 @@ Never lose your place or have to manually recreate your custom channel lineups a
 
 ## Installation & Setup
 
-You can run QuasiTVSync using either standard Docker CLI commands or Docker Compose.
+You can run [QuasiTVSync](https://gonemadsoftware.github.io/quasitv-sync/) using either standard Docker CLI commands or Docker Compose.
 
 ### Option 1: Docker CLI
 
@@ -88,7 +88,7 @@ Containers are configured using parameters passed at runtime (such as those abov
 | `-e PGID=1000` | for GroupID - see below for explanation |
 | `-v /path/to/your/settings:/settings` | Mounts a directory from your host machine into the container at `/settings` so your configuration files persist when the container stops or updates. |
 | `-v /path/to/your/data:/data` | Mounts a host directory into the container at `/data` to persist application data and databases. |
-| `--platform=linux/amd64 | Optional.  Needed if your server is not x86_64/amd64 based.  Running on aarch64 (ARM) would require this to be set |
+| `--platform=linux/amd64` | Optional.  Needed if your server is not x86_64/amd64 based.  Running on aarch64 (ARM) would require this to be set. |
 
 ### User / Group Identifiers
 
