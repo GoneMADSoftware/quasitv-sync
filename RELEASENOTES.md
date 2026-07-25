@@ -1,5 +1,11 @@
 # Release notes
 
+### 1.0.1 (2026-07-25)
+
+    Added support for Jellyfin 12 (11.12)
+    Fixed issue using seasons in plex collections
+    PUID and PGID should now properly set user and group of the docker container and mount points
+
 ### 1.0.0 (2026-07-10)
 
 *   Fixed force sync on web admin UI not always running a sync
