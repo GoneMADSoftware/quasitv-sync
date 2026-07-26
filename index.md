@@ -53,6 +53,10 @@ services:
   quasitv-sync:
     image: ghcr.io/gonemadsoftware/quasitv-sync:latest
     container_name: quasitv-sync
+    
+    #Synology users should uncomment the line below and set user to "PUID value:PGID value"
+    #user: "1000:1000"    
+    
     ports:
       - "26988:26988"
       - "51234:51234"
