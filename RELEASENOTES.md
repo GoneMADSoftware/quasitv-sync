@@ -1,5 +1,9 @@
 # Release notes
 
+### 1.0.2 (2026-07-27)
+
+*   Fixed thumbnails not showing on Web Admin UI
+
 ### 1.0.1 (2026-07-25)
 
 *   Added support for Jellyfin 12 (11.12)
