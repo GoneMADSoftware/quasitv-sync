@@ -1,5 +1,9 @@
 # Release notes
 
+### 1.0.3 (2026-09-10)
+
+*   Added windows installer
+
 ### 1.0.2 (2026-07-27)
 
 *   Fixed thumbnails not showing on Web Admin UI
